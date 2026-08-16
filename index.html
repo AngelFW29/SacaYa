@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/SacaYa/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>SacaYa</title>
+    <script type="text/javascript">
+      // Revierte la redirección hecha por 404.html, restaurando
+      // la ruta original para que React Router la lea correctamente.
+      (function (l) {
+        if (l.search[1] === "/") {
+          var decoded = l.search
+            .slice(1)
+            .split("&")
+            .map(function (s) {
+              return s.replace(/~and~/g, "&");
+            })
+            .join("?");
+          window.history.replaceState(
+            null,
+            null,
+            l.pathname.slice(0, -1) + decoded + l.hash,
+          );
+        }
+      })(window.location);
+    </script>
+    <script type="module" crossorigin src="/SacaYa/assets/index-YQ48m3Om.js"></script>
+    <link rel="stylesheet" crossorigin href="/SacaYa/assets/index-BAwbyut-.css">
+  </head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>
