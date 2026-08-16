@@ -1,0 +1,8 @@
+[
+  { "id": "no-paso", "label": "El camión no pasó" },
+  { "id": "llego-tarde", "label": "Llegó tarde" },
+  { "id": "problema-servicio", "label": "Problema con el servicio" },
+  { "id": "comportamiento", "label": "Comportamiento inapropiado" },
+  { "id": "sugerencia", "label": "Tengo una sugerencia" },
+  { "id": "otro", "label": "Otro" }
+]

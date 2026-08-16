@@ -1,0 +1,72 @@
+[
+  {
+    "id": "ruta-08",
+    "nombre": "Ruta 08",
+    "sector": "Los Frailes II",
+    "estado": "en-ruta",
+    "tiempoMin": 12
+  },
+  {
+    "id": "ruta-09",
+    "nombre": "Ruta 09",
+    "sector": "Alma Rosa",
+    "estado": "programada",
+    "tiempoMin": 25
+  },
+  {
+    "id": "ruta-10",
+    "nombre": "Ruta 10",
+    "sector": "Ensanche Ozama",
+    "estado": "programada",
+    "tiempoMin": 40
+  },
+  {
+    "id": "ruta-11",
+    "nombre": "Ruta 11",
+    "sector": "Invivienda",
+    "estado": "en-ruta",
+    "tiempoMin": 8
+  },
+  {
+    "id": "ruta-12",
+    "nombre": "Ruta 12",
+    "sector": "Isabelita",
+    "estado": "proximamente",
+    "tiempoMin": 18
+  },
+  {
+    "id": "ruta-13",
+    "nombre": "Ruta 13",
+    "sector": "Mendoza",
+    "estado": "programada",
+    "tiempoMin": 35
+  },
+  {
+    "id": "ruta-14",
+    "nombre": "Ruta 14",
+    "sector": "Prados Orientales",
+    "estado": "en-ruta",
+    "tiempoMin": 15
+  },
+  {
+    "id": "ruta-15",
+    "nombre": "Ruta 15",
+    "sector": "San Isidro",
+    "estado": "programada",
+    "tiempoMin": 50
+  },
+  {
+    "id": "ruta-16",
+    "nombre": "Ruta 16",
+    "sector": "Villa Duarte",
+    "estado": "afectado",
+    "tiempoMin": 30
+  },
+  {
+    "id": "ruta-17",
+    "nombre": "Ruta 17",
+    "sector": "Cancino",
+    "estado": "proximamente",
+    "tiempoMin": 22
+  }
+]
