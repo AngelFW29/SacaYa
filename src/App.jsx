@@ -1,18 +1,18 @@
-import { BrowserRouter, Routes, Route } from 'react-router-dom'
-import { SectorProvider } from './context/SectorContext'
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { SectorProvider } from "./context/SectorContext";
 
-import Layout from './components/Layout'
+import Layout from "./components/Layout";
 
 // Pages
-import Inicio from './pages/Inicio'
-import Calendario from './pages/Calendario'
-import Rutas from './pages/Rutas'
-import Reportar from './pages/Reportar'
+import Inicio from "./pages/Inicio";
+import Calendario from "./pages/Calendario";
+import Rutas from "./pages/Rutas";
+import Reportar from "./pages/Reportar";
 
 function App() {
   return (
     <SectorProvider>
-      <BrowserRouter>
+      <BrowserRouter basename="/SacaYa">
         <Layout>
           <Routes>
             <Route path="/" element={<Inicio />} />
@@ -23,7 +23,7 @@ function App() {
         </Layout>
       </BrowserRouter>
     </SectorProvider>
-  )
+  );
 }
 
-export default App
+export default App;
