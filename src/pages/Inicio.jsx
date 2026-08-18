@@ -24,7 +24,7 @@ function Inicio() {
   return (
     <div>
       <PageHeader
-        eyebrow={`${sector.nombre} · ${sector.ciudad}`}
+        eyebrow={`${sector.nombre}`}
         title="¿Cuándo pasa por mi sector?"
       />
 

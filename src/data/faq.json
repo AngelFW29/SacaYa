@@ -1,0 +1,41 @@
+{
+  "preguntas": [
+    {
+      "pregunta": "¿Qué tan exactos son los horarios de recogida?",
+      "respuesta": "Los horarios mostrados son aproximados y de referencia. El paso real del camión puede variar por tráfico, condiciones climáticas u otros factores del servicio."
+    },
+    {
+      "pregunta": "¿Cómo se calcula la \"próxima recogida\" en Inicio?",
+      "respuesta": "SacaYa revisa los días y horario habitual de tu sector, y calcula automáticamente si la recogida es hoy o cuál es el siguiente día programado, comparándolo con la fecha y hora actuales."
+    },
+    {
+      "pregunta": "¿Qué tan real es el mapa de la sección Rutas?",
+      "respuesta": "Este prototipo utiliza un mapa ilustrativo, no una integración real con un servicio de mapas. La posición del camión y las distancias son simuladas para representar la idea del producto."
+    },
+    {
+      "pregunta": "¿Qué pasa cuando envío un reporte?",
+      "respuesta": "En esta versión de prueba, los reportes no se almacenan ni se envían a ningún sistema real — el formulario simula la confirmación de envío para mostrar cómo funcionaría el flujo completo."
+    },
+    {
+      "pregunta": "¿Puedo cambiar de sector en cualquier momento?",
+      "respuesta": "Sí. El selector de sector está disponible en la parte superior de la aplicación y afecta el contenido de Inicio, Calendario y Rutas al instante."
+    }
+  ],
+  "proximamente": [
+    {
+      "icono": "Truck",
+      "titulo": "Mapa con datos reales",
+      "descripcion": "Integración con un servicio de mapas para mostrar la posición real del camión en su recorrido."
+    },
+    {
+      "icono": "Bell",
+      "titulo": "Notificaciones",
+      "descripcion": "Avisos automáticos antes de que el camión pase por tu sector."
+    },
+    {
+      "icono": "Map",
+      "titulo": "Inicio de sesión",
+      "descripcion": "Cuentas de usuario para guardar tu sector y llevar un historial de tus reportes."
+    }
+  ]
+}
